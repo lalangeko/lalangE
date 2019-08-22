@@ -1,0 +1,78 @@
+body {
+    font : 16px/28px arial, sans-serif;
+    color: black;
+}
+.container {
+    width: 1000px;
+    margin: auto;
+    background-size: cover;
+    background-image: url(DSC_0080.JPG);   
+}
+.header{
+    padding: 5px;
+    padding-bottom: 0px;
+}
+.header .judul{
+ font-size: 50px;
+ font-weight: bold;
+ color: #666;
+}
+.header ul li {
+    display: inline-block;
+    margin-right: 10px;
+    border: solid; #666;
+}
+.header a{
+    text-decoration: none;
+    color: red;
+    padding: 5px;
+}
+.header a:hover{
+    background-color: black;
+    color:black;
+}
+
+.gambar{
+    width: 1000px;
+    height: 500px;
+    background-size: cover;
+    background-position: 0 -120px;
+    background-image: url();
+}
+
+
+.footer{
+    background-color:black;
+    width: 100%;
+    border-radius: 10px;
+    -moz-boder-radius: 5px;
+    -webkit-border-radius: 5px;
+    height: 30px;
+    margin: 2% 0;
+}
+
+.foto li {
+    width: 168px;
+    height: 174;
+    border-radius: 100%;
+    overflow: hidden;
+    border: 3px solid #666;
+  }
+  .foto li img{
+      width: 200px;
+  }
+ 
+.footer .salin {
+ text-align: center;
+ color:black;
+}
+
+.box {
+    width: 210px;
+    background: rgb(0,0,0,0.4);
+    padding: 40px;
+    text-align: center;
+    margin: auto;
+    margin-top: 2%;
+    color:black;
+}
